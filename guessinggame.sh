@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "************************ Guessing Game *************************"
+echo "-------------------- Guessing Game -------------------"
 function game {
 	read -p "Guess the number of files in current directory: " guess
     files=$(ls -1 | wc -l)
@@ -17,7 +17,7 @@ do
 	game
 done
 echo " "
-echo "**********Congratulations**********"
+echo "------------Congratulations------------"
 echo "You did it!"
 echo "Here are the files: " 
 ls -1
